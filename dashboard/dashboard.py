@@ -35,7 +35,7 @@ def create_sum_bike_workday(df):
     return sum_bike_workday
 
 
-rental_df = pd.read_csv('Dashboard/rental_data.csv')
+rental_df = pd.read_csv('dashboard/rental_data.csv')
 
 datetime_columns = ["dteday"]
 rental_df.sort_values(by="dteday", inplace=True)
